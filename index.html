@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task list</title>
+    <link rel="stylesheet" href="" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Task List</h2>
+      <form action="#">
+        <input id="input-add" type="text" placeholder="New Tasks" />
+        <input id="add-task-btn" type="submit" value="Add Task" />
+      </form>
+      <hr />
+      <h4>Task</h4>
+      <input id="input-filter" type="text" placeholder="Filter Task" />
+      <ul id="task-list"></ul>
+
+      <button id="clear-btn">Clear Tasks</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
